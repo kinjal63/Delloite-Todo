@@ -45,7 +45,7 @@ Right click on ToDoApp and run as Java Application then hit below url to view it
 http://localhost:8090/index.html
 
 ## Terminology
-#Java
+##Java
 It uses JWT based Authorization token to be issued when user logs in the login page. It is then to be provided in each request header to verify user. If it expires, user won't be able to call any API until new token is issued.
 
 Token is generated and verified using https://mvnrepository.com/artifact/com.auth0/java-jwt
@@ -53,13 +53,13 @@ Spring Data integration provides reduced code to store data in in-momory databas
 
 Project lombok is injected in pom.xml to generate getters, setters and required constructors with annotations.
 
-#UI
+##UI
 ReactJS is used to tune performance along with semantic UI for enriched UI.
 Redux is integrated to manage todo list for an efficient binding to UI.
 Webpack is configured in project to make bundle and define babel to convert ES6 in ES5 syntax supported by most of the browser.
 
 By executing `npm run watch`, it enables live UI reloading in browser.
 
-#Test Cases
+##Test Cases
 Application tests are written which is helpful to detect API defects and loopholes. These test cases can be found in TodoApplicationTests.java under src/test/java
 
