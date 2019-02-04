@@ -63,3 +63,14 @@ By executing `npm run watch`, it enables live UI reloading in browser.
 ##Test Cases
 Application tests are written which is helpful to detect API defects and loopholes. These test cases can be found in TodoApplicationTests.java under src/test/java
 
+##Deployable war
+War is commited inside Deployed_War directory and after deploying to tomcat, it can be run at http://localhost:8080/Todo/
+User can login by below credentials stored in DB.
+1)username: test, password: password
+2)username: test12, password: password12
+3)username: test13, password: password13
+
+H2 console can be tracked at http://localhost:8080/Todo/h2-console
+
+
+
